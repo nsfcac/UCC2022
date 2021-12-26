@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e36a480b.chunk.css",
+    "main.js": "./static/js/main.50785224.chunk.js",
+    "main.js.map": "./static/js/main.50785224.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.f9e61779.js",
+    "runtime~main.js.map": "./static/js/runtime~main.f9e61779.js.map",
+    "static/js/2.71d85ebc.chunk.js": "./static/js/2.71d85ebc.chunk.js",
+    "static/js/2.71d85ebc.chunk.js.map": "./static/js/2.71d85ebc.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.16255dd9817a84b68550e16a082e20cf.js": "./precache-manifest.16255dd9817a84b68550e16a082e20cf.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.e36a480b.chunk.css.map": "./static/css/main.e36a480b.chunk.css.map",
+    "static/media/ACM1.png": "./static/media/ACM1.b0a49b6c.png",
+    "static/media/ACM2.png": "./static/media/ACM2.3d4d7535.png",
+    "static/media/ICS_stacked-transparent.gif": "./static/media/ICS_stacked-transparent.55024ea8.gif",
+    "static/media/IEEE_logo.jpg": "./static/media/IEEE_logo.fc6bb204.jpg",
+    "static/media/campus-entrance-fall.png": "./static/media/campus-entrance-fall.a7479450.png",
+    "static/media/cloudbuslogo.png": "./static/media/cloudbuslogo.58fb4e7b.png",
+    "static/media/style.scss": "./static/media/illustration-section-06.66abc7f8.svg",
+    "static/media/features-split-image.svg": "./static/media/features-split-image.83aeeffb.svg",
+    "static/media/frame-icon.svg": "./static/media/frame-icon.9977570b.svg",
+    "static/media/header.jpg": "./static/media/header.c35dd856.jpg",
+    "static/media/image-placeholder.png": "./static/media/image-placeholder.af4c986b.png",
+    "static/media/logo.svg": "./static/media/logo.9d1da83d.svg",
+    "static/media/team-member-01.jpg": "./static/media/team-member-01.9a00426f.jpg",
+    "static/media/team-member-03.jpg": "./static/media/team-member-03.866e7db3.jpg",
+    "static/media/team-member-04.jpg": "./static/media/team-member-04.0a817cc6.jpg",
+    "static/media/team-member-05.jpg": "./static/media/team-member-05.2283ad00.jpg",
+    "static/media/uol_logo.jpg": "./static/media/uol_logo.113234f8.jpg",
+    "static/media/video-placeholder.svg": "./static/media/video-placeholder.22e4e6cd.svg"
+  }
+}
