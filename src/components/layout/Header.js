@@ -121,25 +121,25 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        <Link to="/home/" onClick={this.closeMenu}>Home</Link>
+                        <Link to="/" onClick={this.closeMenu}>Home</Link>
                       </li>
                       <li>
-                        <Link to="/home/" onClick={this.closeMenu}>Programme</Link>
+                        <Link to="/programme" onClick={this.closeMenu}>Programme</Link>
                       </li>
                       <li>
-                        <Link to="/home/" onClick={this.closeMenu}>Call for paper</Link>
+                        <Link to="/call-for-paper" onClick={this.closeMenu}>Call for paper</Link>
                       </li>
                       <li>
-                        <Link to="/home/" onClick={this.closeMenu}>CHAIRS & COMMITTEES</Link>
+                        <Link to="/chairs-committees" onClick={this.closeMenu}>CHAIRS & COMMITTEES</Link>
                       </li>
                       <li>
-                        <Link to="/secondary/" onClick={this.closeMenu}>Workshops</Link>
+                        <Link to="/workshops" onClick={this.closeMenu}>Workshops</Link>
                       </li>
                       <li>
-                        <Link to="/secondary/" onClick={this.closeMenu}>Keynotes</Link>
+                        <Link to="/keynotes" onClick={this.closeMenu}>Keynotes</Link>
                       </li>
                       <li>
-                        <Link to="/secondary/" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>
+                        <Link to="/doctoral-symposium" onClick={this.closeMenu}>DOCTORAL SYMPOSIUM</Link>
                       </li>
                     </ul>
                     {!hideSignin &&

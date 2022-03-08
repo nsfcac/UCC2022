@@ -13,7 +13,7 @@ const defaultProps = {
   ...SectionSplitProps.defaults
 }
 
-class HeroSplit extends React.Component {
+class TitlewithCountdown extends React.Component {
 
   render() {
 
@@ -65,12 +65,12 @@ class HeroSplit extends React.Component {
               <div className="split-item">
                 <div className="hero-content split-item-content center-content-mobile">
                   <h2 className="mt-0 mb-16 reveal-from-left">
-                    14th IEEE/ACM International Conferencce on Utility and Cloud Computing(UCC2021)
+                    15th IEEE/ACM International Conference on Utility and Cloud Computing(UCC2022)
                   </h2>
                   <p className="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                    December 6-9, 2021 - Portland, Oregon
+                    December 6-9, 2022 - Portland, Oregon
                   </p>
-                  <Countdown date={new Date('1/20/2022')}/>
+                  <Countdown date={new Date('12/6/2022')}/>
                   <div className="reveal-from-left" data-reveal-delay="400">
                     {/*<Button tag="a" color="primary" href="https://cruip.com/" wideMobile>*/}
                     {/*  Pricing and plans*/}
@@ -94,7 +94,7 @@ class HeroSplit extends React.Component {
   }
 }
 
-HeroSplit.propTypes = propTypes;
-HeroSplit.defaultProps = defaultProps;
+TitlewithCountdown.propTypes = propTypes;
+TitlewithCountdown.defaultProps = defaultProps;
 
-export default HeroSplit;
+export default TitlewithCountdown;

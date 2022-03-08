@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroSplit from '../components/sections/HeroSplit';
+import TitlewithCountdown from '../components/sections/TitlewithCountdown';
 import Clients from '../components/sections/Clients';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import ImportantDate from '../components/sections/ImportantDate';
@@ -10,7 +10,7 @@ class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <HeroSplit imageFill className="illustration-section-01" />
+        <TitlewithCountdown imageFill className="illustration-section-01" />
         <FeaturesSplit invertMobile imageFill className="illustration-section-03" />
         <ImportantDate  topDivider className="gradient-section" />
         <Clients topDivider bottomDivider />

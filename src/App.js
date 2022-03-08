@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, HashRouter } from 'react-router-dom';
+import { withRouter, HashRouter, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 
@@ -10,7 +10,9 @@ import LayoutSignin from './layouts/LayoutSignin';
 
 // Views 
 import Home from './views/Home';
-import Secondary from './views/Secondary';
+import ChairsCommittees from './views/ChairsCommittees';
+import Callforpaper from './views/Callforpaper';
+import Program from './views/Program';
 import Login from './views/Login';
 import Signup from './views/Signup';
 
@@ -33,14 +35,18 @@ class App extends React.Component {
       <ScrollReveal
         ref="scrollReveal"
         children={() => (
-          <HashRouter>
-            <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-            <AppRoute exact path="/home" component={Home} layout={LayoutDefault} />
-            <AppRoute exact path="/secondary" component={Secondary} layout={LayoutAlternative} />
-            <AppRoute exact path="/secondary" component={Secondary} layout={LayoutAlternative} />
-            <AppRoute exact path="/login" component={Login} layout={LayoutSignin} />
-            <AppRoute exact path="/signup" component={Signup} layout={LayoutSignin} />
-          </HashRouter>
+              <Switch>
+                <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+                <AppRoute path="/home" component={Home} layout={LayoutDefault} />
+                <AppRoute path="/programme" component={Program} layout={LayoutAlternative} />
+                <AppRoute path="/call-for-paper" component={Callforpaper} layout={LayoutAlternative} />
+                <AppRoute path="/chairs-committees" component={ChairsCommittees} layout={LayoutAlternative} />
+                  <AppRoute path="/workshops" component={Program} layout={LayoutAlternative} />
+                  <AppRoute path="/keynotes" component={Program} layout={LayoutAlternative} />
+                  <AppRoute path="/doctoral-symposium" component={Program} layout={LayoutAlternative} />
+                {/*<AppRoute path="/" component={Login} layout={LayoutSignin} />*/}
+                {/*<AppRoute path="/signup" component={Signup} layout={LayoutSignin} />*/}
+              </Switch>
         )} />
     );
   }
