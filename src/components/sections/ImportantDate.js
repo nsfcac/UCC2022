@@ -53,7 +53,7 @@ class ImportantDate extends React.Component {
         className={outerClasses}
       >
         <div className="container">
-          <h2>Important Date</h2>
+          <h2>Important Dates</h2>
           <div
             // className={innerClasses}
           >

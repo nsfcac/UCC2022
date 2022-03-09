@@ -65,7 +65,7 @@ class TitlewithCountdown extends React.Component {
               <div className="split-item">
                 <div className="hero-content split-item-content center-content-mobile">
                   <h2 className="mt-0 mb-16 reveal-from-left">
-                    15th IEEE/ACM International Conference on Utility and Cloud Computing(UCC2022)
+                    15th IEEE/ACM International Conference on Utility and Cloud Computing (UCC2022)
                   </h2>
                   <p className="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
                     December 6-9, 2022 - Portland, Oregon

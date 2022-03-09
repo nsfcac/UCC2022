@@ -51,13 +51,13 @@ class Clients extends React.Component {
           >
             <h2>Sponsors</h2>
             <ul className="list-reset">
-              <li className="reveal-scale-up" data-reveal-delay="400">
-                <Image
-                  src={require('./../../assets/images/uol_logo.jpg')}
-                  alt="Client 01"
-                  width={124}
-                  height={24} />
-              </li>
+              {/*<li className="reveal-scale-up" data-reveal-delay="400">*/}
+              {/*  <Image*/}
+              {/*    src={require('./../../assets/images/uol_logo.jpg')}*/}
+              {/*    alt="Client 01"*/}
+              {/*    width={124}*/}
+              {/*    height={24} />*/}
+              {/*</li>*/}
               <li className="reveal-scale-up" data-reveal-delay="200">
                 <Image
                   src={require('./../../assets/images/ACM1.png')}
