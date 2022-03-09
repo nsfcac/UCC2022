@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a8e19ae15e2a8fc1c99737451bfd3f1",
+    "revision": "afb1a8c8c2dcf9e7d05c526c5f8a98b4",
     "url": "./index.html"
   },
   {
-    "revision": "ce275b6f739a49e27f85",
+    "revision": "c682bb110cae427912d8",
     "url": "./static/css/main.e36a480b.chunk.css"
   },
   {
-    "revision": "9f9213a3d8128cd4bd46",
-    "url": "./static/js/2.f18361e4.chunk.js"
+    "revision": "7bbc9461db5f0cdd7ef6",
+    "url": "./static/js/2.bd744251.chunk.js"
   },
   {
-    "revision": "ce275b6f739a49e27f85",
-    "url": "./static/js/main.5143944d.chunk.js"
+    "revision": "c682bb110cae427912d8",
+    "url": "./static/js/main.6f3a6d32.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -130,10 +130,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f78294f76bc3d7844230c1ebff573184",
     "url": "./static/media/tommy_dang.f78294f7.jpg"
-  },
-  {
-    "revision": "113234f84fb5199167037ded536e5dba",
-    "url": "./static/media/uol_logo.113234f8.jpg"
   },
   {
     "revision": "22e4e6cd0ce1b7684d8aed4f99722b6b",
