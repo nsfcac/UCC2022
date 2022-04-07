@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afb1a8c8c2dcf9e7d05c526c5f8a98b4",
+    "revision": "f3d11ba2ea8360a5d58e4ede20f61067",
     "url": "./index.html"
   },
   {
-    "revision": "c682bb110cae427912d8",
+    "revision": "e3358ae2c52658126bcc",
     "url": "./static/css/main.e36a480b.chunk.css"
   },
   {
-    "revision": "7bbc9461db5f0cdd7ef6",
-    "url": "./static/js/2.bd744251.chunk.js"
+    "revision": "910cc1edf06cf3cc3360",
+    "url": "./static/js/2.7ba72e36.chunk.js"
   },
   {
-    "revision": "c682bb110cae427912d8",
-    "url": "./static/js/main.6f3a6d32.chunk.js"
+    "revision": "e3358ae2c52658126bcc",
+    "url": "./static/js/main.1c2f1cac.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc6bb204d46698e7991fea5f0d614aa3",
     "url": "./static/media/IEEE_logo.fc6bb204.jpg"
-  },
-  {
-    "revision": "f5b94c9ed75ea55db74a9c4cfbbdfda4",
-    "url": "./static/media/alan_sill.f5b94c9e.jpg"
   },
   {
     "revision": "a7479450b598dae6ebea757d588dbdab",
@@ -128,15 +124,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/logo.9d1da83d.svg"
   },
   {
-    "revision": "f78294f76bc3d7844230c1ebff573184",
-    "url": "./static/media/tommy_dang.f78294f7.jpg"
+    "revision": "9e7d5a599fc1e96318f72a398141aab6",
+    "url": "./static/media/members.9e7d5a59.csv"
+  },
+  {
+    "revision": "96e141e735e8a6b189712dd506faede3",
+    "url": "./static/media/universitys.96e141e7.csv"
   },
   {
     "revision": "22e4e6cd0ce1b7684d8aed4f99722b6b",
     "url": "./static/media/video-placeholder.22e4e6cd.svg"
-  },
-  {
-    "revision": "9abf86db25a64e84f2843c42e41c1df8",
-    "url": "./static/media/xinghui_zhao.9abf86db.jpg"
   }
 ]);
