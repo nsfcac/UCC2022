@@ -1,6 +1,6 @@
 import React from 'react';
 import TitlewithCountdown from '../components/sections/TitlewithCountdown';
-import Clients from '../components/sections/Clients';
+import Sponsor from '../components/sections/Sponsor';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import ImportantDate from '../components/sections/ImportantDate';
 import Pricing from '../components/sections/Pricing';
@@ -13,7 +13,7 @@ class Home extends React.Component {
         <TitlewithCountdown imageFill className="illustration-section-01" />
         <FeaturesSplit invertMobile imageFill className="illustration-section-03" />
         <ImportantDate  topDivider className="gradient-section" />
-        <Clients topDivider bottomDivider />
+        <Sponsor topDivider bottomDivider />
         {/*<Pricing hasBgColor topDivider pricingSwitcher />*/}
         {/*<Cta hasBgColor invertColor split className="illustration-element-08" />*/}
       </React.Fragment>

@@ -3,6 +3,9 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import membersData from "../../assets/members.csv"
+import universityData from "../../assets/universitys.csv"
+import {csv,groups} from "d3"
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -14,8 +17,31 @@ const defaultProps = {
 
 class Team extends React.Component {
 
-  render() {
+    constructor(props) {
+        super(props);
+        this.state ={members:[]}
+    }
 
+    componentDidMount() {
+        csv(universityData).then(un=>{
+            let dict = {};
+            un.forEach(u=>{
+                dict[u.Short] = u;
+            });
+            csv(membersData).then(mem=>{
+                mem.forEach(d=>{
+                    if (dict[d.Affiliation]){
+                        d.Affiliation_logo = `./image/${dict[d.Affiliation].Short}.jpg`;
+                        d.Affiliation = dict[d.Affiliation].Full;
+                    }
+                })
+                this.setState({members:groups(mem,d=>d.Category)});
+            })
+        })
+    }
+
+    render() {
+    const {members} = this.state;
     const {
       className,
       topOuterDivider,
@@ -60,163 +86,38 @@ class Team extends React.Component {
       >
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={{title:'General Chairs'}} className="center-content reveal-from-top" />
+            {members.map(c=><div key={c[0]}><SectionHeader data={{title:'General Chairs'}} className="center-content reveal-from-top" />
             <div className={tilesClasses}>
-              <div className="tiles-item">
+              {c[1].map((m,i)=><div className="tiles-item" key={i}>
                 <div className="tiles-item-inner">
                   <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
-                    <div className="team-item-image mb-24 illustration-element-06">
+                    <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
                       <Image
-                        src={require('./../../assets/images/xinghui_zhao.jpg')}
-                        alt="Xinghui Zhao"
+                        src={`./image/${(m.Name==='??')?'unknown':m.Name}.jpg`}
+                        alt={m.Name}
                         width={190}
                         height={190} />
                     </div>
                   </div>
                   <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
                       <h5 className="team-item-name mt-0 mb-4">
-                          Xinghui Zhao
+                          {m.Name}
                       </h5>
                       <div className="team-item-role text-xxs tt-u text-color-primary mb-8">
-                          General Chair
+                          {m.Role}
                       </div>
                       <p className="m-0 text-sm">
-                          LWashington State University,
-                          Vancouver, Washington, USA.
+                          {/*m.Affiliation_logo&&<Image
+                              src={m.Affiliation_logo}
+                              alt={m.Affiliation}
+                              width={50}
+                              height={50} />*/}{m.Affiliation}{m.Region?`, ${m.Region}`:''}
                       </p>
                   </div>
                 </div>
-              </div>
-              <div className="tiles-item">
-                <div className="tiles-item-inner">
-                  <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="150">
-                    <div className="team-item-image mb-24">
-                      <Image
-                        src={require('./../../assets/images/alan_sill.jpg')}
-                        alt="Alan Sill"
-                        width={190}
-                        height={190} />
-                    </div>
-                  </div>
-                  <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="350">
-                      <h5 className="team-item-name mt-0 mb-4">
-                          Alan Sill
-                      </h5>
-                      <div className="team-item-role text-xxs tt-u text-color-primary mb-8">
-                          General Chair
-                      </div>
-                      <p className="m-0 text-sm">
-                          Texas Tech University,
-                          Lubbock, Texas, USA
-                      </p>
-                  </div>
-                </div>
-              </div>
+              </div>)}
+            </div></div>)}
 
-              {/*<div className="tiles-item">*/}
-              {/*  <div className="tiles-item-inner">*/}
-              {/*    <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">*/}
-              {/*      <div className="team-item-image mb-24 illustration-element-07">*/}
-              {/*        <Image*/}
-              {/*          src={require('./../../assets/images/team-member-03.jpg')}*/}
-              {/*          alt="Team member 03"*/}
-              {/*          width={190}*/}
-              {/*          height={190} />*/}
-              {/*      </div>*/}
-              {/*    </div>*/}
-              {/*    <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="500">*/}
-              {/*        <h5 className="team-item-name mt-0 mb-4">*/}
-              {/*            Clifford Kennedy*/}
-              {/*        </h5>*/}
-              {/*        <div className="team-item-role text-xxs tt-u text-color-primary mb-8">*/}
-              {/*            CEO & Co-Founder*/}
-              {/*        </div>*/}
-              {/*        <p className="m-0 text-sm">*/}
-              {/*            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.*/}
-              {/*        </p>*/}
-              {/*    </div>*/}
-              {/*  </div>*/}
-              {/*</div>*/}
-
-              {/*<div className="tiles-item">*/}
-              {/*  <div className="tiles-item-inner">*/}
-              {/*    <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item">*/}
-              {/*      <div className="team-item-image mb-24">*/}
-              {/*        <Image*/}
-              {/*          src={require('./../../assets/images/team-member-04.jpg')}*/}
-              {/*          alt="Team member 04"*/}
-              {/*          width={190}*/}
-              {/*          height={190} />*/}
-              {/*      </div>*/}
-              {/*    </div>*/}
-              {/*    <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">*/}
-              {/*        <h5 className="team-item-name mt-0 mb-4">*/}
-              {/*            Clifford Kennedy*/}
-              {/*        </h5>*/}
-              {/*        <div className="team-item-role text-xxs tt-u text-color-primary mb-8">*/}
-              {/*            CEO & Co-Founder*/}
-              {/*        </div>*/}
-              {/*        <p className="m-0 text-sm">*/}
-              {/*            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.*/}
-              {/*        </p>*/}
-              {/*    </div>*/}
-              {/*  </div>*/}
-              {/*</div>*/}
-            </div>
-              <SectionHeader data={{title:'Programme Committee Chairs'}} className="center-content reveal-from-top" />
-              <div className={tilesClasses}>
-              <div className="tiles-item">
-                <div className="tiles-item-inner">
-                  <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="150">
-                    <div className="team-item-image mb-24">
-                      <Image
-                        src={require('./../../assets/images/tommy_dang.jpg')}
-                        alt="tommy dang"
-                        width={190}
-                        height={190} />
-                    </div>
-                  </div>
-                  <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="350">
-                      <h5 className="team-item-name mt-0 mb-4">
-                          Tommy Dang
-                      </h5>
-                      <div className="team-item-role text-xxs tt-u text-color-primary mb-8">
-                          Financial Chair
-                      </div>
-                      <p className="m-0 text-sm">
-                          Texas Tech University,
-                          Lubbock, Texas, USA
-                      </p>
-                  </div>
-                </div>
-              </div>
-
-              {/*<div className="tiles-item">*/}
-              {/*  <div className="tiles-item-inner">*/}
-              {/*    <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">*/}
-              {/*      <div className="team-item-image mb-24">*/}
-              {/*        <Image*/}
-              {/*          src={require('./../../assets/images/team-member-06.jpg')}*/}
-              {/*          alt="Team member 06"*/}
-              {/*          width={190}*/}
-              {/*          height={190} />*/}
-              {/*      </div>*/}
-              {/*    </div>*/}
-              {/*    <div className="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="500">*/}
-              {/*        <h5 className="team-item-name mt-0 mb-4">*/}
-              {/*            Clifford Kennedy*/}
-              {/*        </h5>*/}
-              {/*        <div className="team-item-role text-xxs tt-u text-color-primary mb-8">*/}
-              {/*            CEO & Co-Founder*/}
-              {/*        </div>*/}
-              {/*        <p className="m-0 text-sm">*/}
-              {/*            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.*/}
-              {/*        </p>*/}
-              {/*    </div>*/}
-              {/*  </div>*/}
-              {/*</div>*/}
-
-            </div>
           </div>
         </div>
       </section>

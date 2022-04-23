@@ -11,7 +11,7 @@ const defaultProps = {
   ...SectionProps.defaults
 }
 
-class Clients extends React.Component {
+class Sponsor extends React.Component {
 
   render() {
     const {
@@ -121,7 +121,7 @@ class Clients extends React.Component {
   }
 }
 
-Clients.propTypes = propTypes;
-Clients.defaultProps = defaultProps;
+Sponsor.propTypes = propTypes;
+Sponsor.defaultProps = defaultProps;
 
-export default Clients;
+export default Sponsor;
