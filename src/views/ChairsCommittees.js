@@ -53,7 +53,7 @@ class ChairsCommittees extends React.Component {
             {...props}
             className={outerClasses}
         >
-          <Team className="illustration-section-04" />
+          <Team className="illustration-section-01" />
 
         </section>
       </React.Fragment>
