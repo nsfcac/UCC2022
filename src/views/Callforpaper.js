@@ -42,7 +42,7 @@ class Callforpaper extends React.Component {
         };
         return (
             <React.Fragment>
-                <Grid container>
+                <Grid container spacing={2}>
                     <Grid item lg={9}>
                         <GenericSection>
                                 <h2>Call for Papers</h2>
@@ -206,7 +206,7 @@ class Callforpaper extends React.Component {
                         <GenericSection>
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
-                                <ImportantDate topDivider className="gradient-section"/>
+                                <ImportantDate className="gradient-section" style={{paddingTop:0}}/>
                                 <p>Check separate UCC calls for workshops, tutorials and other tracks.</p>
                             </CardContent>
                         </Card>
