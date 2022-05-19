@@ -3,8 +3,9 @@ import TitlewithCountdown from '../components/sections/TitlewithCountdown';
 import Sponsor from '../components/sections/Sponsor';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import ImportantDate from '../components/sections/ImportantDate';
-import Pricing from '../components/sections/Pricing';
+import Social from '../components/sections/Social';
 import Cta from '../components/sections/Cta';
+import {TwitterTimelineEmbed} from "react-twitter-embed";
 
 class Home extends React.Component {
   render() {
@@ -14,8 +15,7 @@ class Home extends React.Component {
         <FeaturesSplit invertMobile imageFill className="illustration-section-03" />
         <ImportantDate  topDivider className="gradient-section" />
         <Sponsor topDivider bottomDivider />
-        {/*<Pricing hasBgColor topDivider pricingSwitcher />*/}
-        {/*<Cta hasBgColor invertColor split className="illustration-element-08" />*/}
+         <Social topDivider bottomDivider />
       </React.Fragment>
     );
   }

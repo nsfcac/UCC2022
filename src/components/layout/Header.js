@@ -150,7 +150,8 @@ class Header extends React.Component {
                       >
                         <li>
                           {/*<Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</Link>*/}
-                          <a target="_blank" href="https://shop.le.ac.uk/conferences-and-events/leicester-conferences/uccbdcat/14th-ieeeacm-international-conference-ucc-2021-8th-ieeeacm-international-conference-bdcat-2021" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</a>
+                          {/*<a target="_blank" href="https://shop.le.ac.uk/conferences-and-events/leicester-conferences/uccbdcat/14th-ieeeacm-international-conference-ucc-2021-8th-ieeeacm-international-conference-bdcat-2021" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Registration</a>*/}
+                            <Link to="/registration" onClick={this.closeMenu} className="button button-primary button-wide-mobile button-sm">Registration</Link>
                         </li>
                       </ul>}
                   </div>

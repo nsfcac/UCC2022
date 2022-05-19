@@ -58,7 +58,7 @@ class Program extends React.Component {
               <div className="hero-content">
                 <div className="container-xs">
                   <h1 className="mt-0 reveal-from-top">
-                    Comming soon
+                    Coming soon
                   </h1>
                   <div className="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
                     <Image

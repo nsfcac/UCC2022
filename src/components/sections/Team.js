@@ -89,11 +89,12 @@ class Team extends React.Component {
             >
                 <div className="container">
                     <div className={innerClasses}>
-                        {members.map(c=><div key={c[0]}><SectionHeader data={{title:'General Chairs'}} className="center-content reveal-from-top" />
+                        {members.map(c=><div key={c[0]} className={"mb-32"}>
+                            <SectionHeader data={{title:c[0]}} className="center-content reveal-from-top" />
                             <div className={tilesClasses}>
                                 {c[1].map((m,i)=><div className="tiles-item" key={i}>
                                     <div className="tiles-item-inner">
-                                        <div className="team-item-header " data-reveal-container=".tiles-item">
+                                        <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                                             <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
                                                 <Image
                                                     src={`./image/${(m.Name==='??')?'unknown':m.Name}.jpg`}
@@ -106,9 +107,12 @@ class Team extends React.Component {
                                             <h5 className="team-item-name mt-0 mb-4">
                                                 {m.Name}
                                             </h5>
-                                            <div className="team-item-role text-xxs tt-u text-color-primary mb-8">
+                                            {(c[0]==='Programme Committee Chairs')&&<div className="team-item-role text-xxs tt-u text-color-primary mb-8" >
                                                 {m.Role}
-                                            </div>
+                                                </div>}
+                                            {m.Email&&<a className="team-item-role text-xxs tt-u text-color-primary mb-8" href={`mailto:${m.Email}`}><IconButton aria-label="delete" size="small" color="primary" style={{width:30}}>
+                                                <EmailIcon style={{width:30}}/>
+                                            </IconButton> :{m.Email}</a>}
                                             <p className="m-0 text-sm">
                                                 {/*m.Affiliation_logo&&<Image
                               src={m.Affiliation_logo}
@@ -116,9 +120,7 @@ class Team extends React.Component {
                               width={50}
                               height={50} />*/}{m.Affiliation}{m.Region?`, ${m.Region}`:''}
                                             </p>
-                                            {m.Email&&<p><IconButton aria-label="delete" size="small" color="primary" style={{width:30}}>
-                                                <EmailIcon />
-                                            </IconButton> : <a href={`mailto:${m.Email}`}>{m.Email}</a></p>}
+
                                         </div>
                                     </div>
                                 </div>)}
