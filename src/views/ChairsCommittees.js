@@ -20,51 +20,51 @@ import classNames from "classnames";
 
 class ChairsCommittees extends React.Component {
 
-  render() {
-    const {
-      className,
-      topOuterDivider,
-      bottomOuterDivider,
-      topDivider,
-      bottomDivider,
-      hasBgColor,
-      invertColor,
-      ...props
-    } = this.props;
+    render() {
+        const {
+            className,
+            topOuterDivider,
+            bottomOuterDivider,
+            topDivider,
+            bottomDivider,
+            hasBgColor,
+            invertColor,
+            ...props
+        } = this.props;
 
-    const outerClasses = classNames(
-        'hero section center-content',
-        topOuterDivider && 'has-top-divider',
-        bottomOuterDivider && 'has-bottom-divider',
-        hasBgColor && 'has-bg-color',
-        invertColor && 'invert-color',
-        className
-    );
+        const outerClasses = classNames(
+            'hero section center-content',
+            topOuterDivider && 'has-top-divider',
+            bottomOuterDivider && 'has-bottom-divider',
+            hasBgColor && 'has-bg-color',
+            invertColor && 'invert-color',
+            className
+        );
 
-    const innerClasses = classNames(
-        'hero-inner section-inner',
-        topDivider && 'has-top-divider',
-        bottomDivider && 'has-bottom-divider'
-    );
+        const innerClasses = classNames(
+            'hero-inner section-inner',
+            topDivider && 'has-top-divider',
+            bottomDivider && 'has-bottom-divider'
+        );
 
-    return (
-      <React.Fragment>
-        <section
-            {...props}
-            className={outerClasses}
-        >
-          <Team className="illustration-section-01" />
+        return (
+            <React.Fragment>
+                <section
+                    {...props}
+                    className={outerClasses}
+                >
+                    <Team className="illustration-section-01" />
 
-        </section>
-      </React.Fragment>
-    );
-  }
+                </section>
+            </React.Fragment>
+        );
+    }
 }
 
 // inline style
 const formStyle = {
-  maxWidth: '420px',
-  margin: '0 auto'
+    maxWidth: '420px',
+    margin: '0 auto'
 }
 
 export default ChairsCommittees;

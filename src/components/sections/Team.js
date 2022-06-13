@@ -97,7 +97,7 @@ class Team extends React.Component {
                                         <div className="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                                             <div className={`team-item-image mb-24 ${m.isSpecical?'illustration-element-06':''}`}>
                                                 <Image
-                                                    src={`./image/${(m.Name==='??')?'unknown':m.Name}.jpg`}
+                                                    src={`./image/${m.Avatar!==''?m.Avatar:`${(m.Name==='??')?'unknown':m.Name}.jpg`}`}
                                                     alt={m.Name}
                                                     width={190}
                                                     height={190} />
@@ -109,10 +109,10 @@ class Team extends React.Component {
                                             </h5>
                                             {(c[0]==='Programme Committee Chairs')&&<div className="team-item-role text-xxs tt-u text-color-primary mb-8" >
                                                 {m.Role}
-                                                </div>}
-                                            {m.Email&&<a className="team-item-role text-xxs tt-u text-color-primary mb-8" href={`mailto:${m.Email}`}><IconButton aria-label="delete" size="small" color="primary" style={{width:30}}>
-                                                <EmailIcon style={{width:30}}/>
-                                            </IconButton> :{m.Email}</a>}
+                                            </div>}
+                                            {/*{m.Email&&<a className="team-item-role text-xxs tt-u text-color-primary mb-8" href={`mailto:${m.Email}`}><IconButton aria-label="delete" size="small" color="primary" style={{width:30}}>*/}
+                                            {/*<EmailIcon style={{width:30}}/>*/}
+                                            {/*</IconButton> :{m.Email}</a>}*/}
                                             <p className="m-0 text-sm">
                                                 {/*m.Affiliation_logo&&<Image
                               src={m.Affiliation_logo}
