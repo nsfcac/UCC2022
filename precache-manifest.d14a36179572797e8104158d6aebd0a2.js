@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1166d8d57774ff3f0022934a941074a8",
+    "revision": "06bff88f1f3fd61d0a0b046fe33573f0",
     "url": "./index.html"
   },
   {
-    "revision": "9b436b454bd9a8f071b3",
+    "revision": "3ce02bfa8d6eeccc32ac",
     "url": "./static/css/main.e4ef614a.chunk.css"
   },
   {
-    "revision": "2faab0d85653ae865bec",
-    "url": "./static/js/2.1c236836.chunk.js"
+    "revision": "98400c03f9dd5809685f",
+    "url": "./static/js/2.f4f495c1.chunk.js"
   },
   {
-    "revision": "9b436b454bd9a8f071b3",
-    "url": "./static/js/main.749cef65.chunk.js"
+    "revision": "3ce02bfa8d6eeccc32ac",
+    "url": "./static/js/main.d31eafd7.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc6bb204d46698e7991fea5f0d614aa3",
     "url": "./static/media/IEEE_logo.fc6bb204.jpg"
+  },
+  {
+    "revision": "21f01a00a25d3390ee4feafb0276c639",
+    "url": "./static/media/UCC2022-TPC.21f01a00.csv"
   },
   {
     "revision": "6a6c07fa6f57c12f475a6ecef56f345b",
