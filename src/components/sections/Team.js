@@ -5,6 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import membersData from "../../assets/members.csv"
 import universityData from "../../assets/universitys.csv"
+import tpcData from "../../assets/UCC2022-TPC.csv"
 import {csv,groups} from "d3"
 import IconButton from "@mui/material/IconButton/IconButton";
 import EmailIcon from '@mui/icons-material/Email';
@@ -22,7 +23,7 @@ class Team extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state ={members:[]}
+        this.state ={members:[],tpc:[]}
     }
 
     componentDidMount() {
@@ -41,6 +42,9 @@ class Team extends React.Component {
                 this.setState({members:groups(mem,d=>d.Category)});
             })
         })
+            .then(()=>csv(tpcData).then(data=>{
+                this.setState(({tpc:data}))
+        }))
     }
 
     render() {
@@ -125,7 +129,18 @@ class Team extends React.Component {
                                     </div>
                                 </div>)}
                             </div></div>)}
-
+                        <div className={"mb-32"}>
+                            <SectionHeader data={{title:'UCC 2022 Programme Committee'}} className="center-content reveal-from-top" />
+                            <div className={tilesClasses}>
+                                <ul>
+                                    {
+                                        this.state.tpc.map(d=><li style={{textAlign:'left'}}>
+                                            {d['First name']} {d['Last name']}, {d['Affliation']}
+                                        </li>)
+                                    }
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
