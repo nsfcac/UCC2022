@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bc7e4ee2cfab91c2cd1fc709ac93f11",
+    "revision": "6f836284201aa26f084ec73884322af5",
     "url": "./index.html"
   },
   {
-    "revision": "b5273c53ecfaffa32ec1",
+    "revision": "08bdce38f8bb8fcc65d0",
     "url": "./static/css/main.51af2669.chunk.css"
   },
   {
-    "revision": "cd4981ed21542c38b26f",
-    "url": "./static/js/2.8ba87751.chunk.js"
+    "revision": "279d80d68ca0907af9b6",
+    "url": "./static/js/2.3f88c396.chunk.js"
   },
   {
-    "revision": "b5273c53ecfaffa32ec1",
-    "url": "./static/js/main.57804589.chunk.js"
+    "revision": "08bdce38f8bb8fcc65d0",
+    "url": "./static/js/main.418559bc.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -32,12 +32,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ACM2.3d4d7535.png"
   },
   {
+    "revision": "f5b94c9ed75ea55db74a9c4cfbbdfda4",
+    "url": "./static/media/Alan Sill.f5b94c9e.jpg"
+  },
+  {
+    "revision": "193b6f06e5b4b36513fae04a423495ef",
+    "url": "./static/media/Auluck-Nitin.193b6f06.jpeg"
+  },
+  {
+    "revision": "e9c9218890c16151019638ade520491d",
+    "url": "./static/media/Ben McCamish.e9c92188.jpg"
+  },
+  {
+    "revision": "a0115c48a409cfc8aeebf20da151f397",
+    "url": "./static/media/Brian Larkins.a0115c48.jpg"
+  },
+  {
+    "revision": "8ebf61ce1f0cdc76a3a8bfc8866cc158",
+    "url": "./static/media/David Chiu.8ebf61ce.jpg"
+  },
+  {
+    "revision": "f2d9c62615889166489a6e0daf8a788a",
+    "url": "./static/media/Ganesh Neelakanta Iyer.f2d9c626.jpg"
+  },
+  {
+    "revision": "ff43045a924586d487b9299fcd23cdce",
+    "url": "./static/media/Hohai University.ff43045a.png"
+  },
+  {
     "revision": "55024ea8792f6df4414b19d145333373",
     "url": "./static/media/ICS_stacked-transparent.55024ea8.gif"
   },
   {
     "revision": "fc6bb204d46698e7991fea5f0d614aa3",
     "url": "./static/media/IEEE_logo.fc6bb204.jpg"
+  },
+  {
+    "revision": "dd98db6c68b2e9aa6e7aaeef7cdd8137",
+    "url": "./static/media/Jianwu Wang.dd98db6c.jpg"
+  },
+  {
+    "revision": "3990e76679d189ffc12857a936e826c8",
+    "url": "./static/media/Josef Spillner.3990e766.jpg"
+  },
+  {
+    "revision": "eb66c845c80ec83e25194e7ff3436770",
+    "url": "./static/media/Kenneth Johnson.eb66c845.jpg"
+  },
+  {
+    "revision": "42394a8760fb88988e0835e7748fd6fd",
+    "url": "./static/media/Luiz Bittencourt.42394a87.jpg"
   },
   {
     "revision": "79613972e0fb72ee6ec3020a3dac2e61",
@@ -48,6 +92,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/NSF_4-Color_bitmap_Logo.383b9562.png"
   },
   {
+    "revision": "acf6f7ff06310235abe1c00a76142d2c",
+    "url": "./static/media/Ngan Nguyen.acf6f7ff.jpg"
+  },
+  {
+    "revision": "a44f3870ecaaf26e84adce61be2fb251",
+    "url": "./static/media/North Texas.a44f3870.png"
+  },
+  {
+    "revision": "34c1c1450de41cc02fece8c1c158510f",
+    "url": "./static/media/Paolo Falcarin.34c1c145.jpg"
+  },
+  {
+    "revision": "f95e93b5df3c4f1fa76436abb7860ec3",
+    "url": "./static/media/Praveen Kumar Donta.f95e93b5.png"
+  },
+  {
+    "revision": "f78294f76bc3d7844230c1ebff573184",
+    "url": "./static/media/Tommy Dang.f78294f7.jpg"
+  },
+  {
+    "revision": "2db775cc747fcf30f8074dc704f097e3",
+    "url": "./static/media/U of Campinas.2db775cc.png"
+  },
+  {
     "revision": "21f01a00a25d3390ee4feafb0276c639",
     "url": "./static/media/UCC2022-TPC.21f01a00.csv"
   },
@@ -56,8 +124,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/UCC_2022_workshops.6a6c07fa.csv"
   },
   {
+    "revision": "b3ee05073b353856c8e63eb22e7c9836",
+    "url": "./static/media/UMBC.b3ee0507.png"
+  },
+  {
     "revision": "d77f81bbdbc849078338a95c54083496",
     "url": "./static/media/Weisong Shi.d77f81bb.jpg"
+  },
+  {
+    "revision": "9abf86db25a64e84f2843c42e41c1df8",
+    "url": "./static/media/Xinghui Zhao.9abf86db.jpg"
+  },
+  {
+    "revision": "db36839af854ec7ddebfb693842c075e",
+    "url": "./static/media/Yan Tang.db36839a.jpg"
+  },
+  {
+    "revision": "aa0bd87bb37d58b7c9a2385d3ef1a29d",
+    "url": "./static/media/Zichuan Xu.aa0bd87b.jpg"
+  },
+  {
+    "revision": "9d01d5183f218696feb5d98f0bcaa847",
+    "url": "./static/media/ahmed-200x301.9d01d518.png"
   },
   {
     "revision": "0d4e038603a3458be6bb92c3d10149dd",
@@ -258,6 +346,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "89db2b8e1b33f8fbb1ff7899005932ab",
     "url": "./static/media/universitys.89db2b8e.csv"
+  },
+  {
+    "revision": "a8651b30dff43dacba1368a1c02a2d3d",
+    "url": "./static/media/unknown.a8651b30.jpg"
   },
   {
     "revision": "113234f84fb5199167037ded536e5dba",
