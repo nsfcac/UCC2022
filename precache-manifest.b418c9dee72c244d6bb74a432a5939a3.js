@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17c9bd06a84e273a865bcebcc92055a6",
+    "revision": "c42b2c875d92480bc7c8e95f85d1aec6",
     "url": "./index.html"
   },
   {
-    "revision": "01ca643d80a91cd5e5b3",
-    "url": "./static/css/main.e4ef614a.chunk.css"
+    "revision": "9cf6b9997acec14a971f",
+    "url": "./static/css/main.51af2669.chunk.css"
   },
   {
-    "revision": "98400c03f9dd5809685f",
-    "url": "./static/js/2.f4f495c1.chunk.js"
+    "revision": "cd4981ed21542c38b26f",
+    "url": "./static/js/2.8ba87751.chunk.js"
   },
   {
-    "revision": "01ca643d80a91cd5e5b3",
-    "url": "./static/js/main.624189a2.chunk.js"
+    "revision": "9cf6b9997acec14a971f",
+    "url": "./static/js/main.eb404cf5.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
     "url": "./static/js/runtime~main.f9e61779.js"
+  },
+  {
+    "revision": "ee4bdc3cb8a98037c5ecc38f779b7ddb",
+    "url": "./static/media/2020.ee4bdc3c.png"
   },
   {
     "revision": "b0a49b6cb663eca681b4a3edc090feb4",
@@ -36,6 +40,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/IEEE_logo.fc6bb204.jpg"
   },
   {
+    "revision": "79613972e0fb72ee6ec3020a3dac2e61",
+    "url": "./static/media/Michela Taufer.79613972.jpg"
+  },
+  {
+    "revision": "383b956221829946135b0f10792d6d78",
+    "url": "./static/media/NSF_4-Color_bitmap_Logo.383b9562.png"
+  },
+  {
     "revision": "21f01a00a25d3390ee4feafb0276c639",
     "url": "./static/media/UCC2022-TPC.21f01a00.csv"
   },
@@ -44,8 +56,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/UCC_2022_workshops.6a6c07fa.csv"
   },
   {
+    "revision": "d77f81bbdbc849078338a95c54083496",
+    "url": "./static/media/Weisong Shi.d77f81bb.jpg"
+  },
+  {
+    "revision": "0d4e038603a3458be6bb92c3d10149dd",
+    "url": "./static/media/campus-entrance-fall.0d4e0386.jpg"
+  },
+  {
     "revision": "a7479450b598dae6ebea757d588dbdab",
     "url": "./static/media/campus-entrance-fall.a7479450.png"
+  },
+  {
+    "revision": "06872773b767146df385adc84b357cdd",
+    "url": "./static/media/clients-01.06872773.svg"
+  },
+  {
+    "revision": "d0e2571965c3c647742f05749fc8e670",
+    "url": "./static/media/clients-02.d0e25719.svg"
+  },
+  {
+    "revision": "1034d29f27acd9f81968a1d49716e370",
+    "url": "./static/media/clients-03.1034d29f.svg"
+  },
+  {
+    "revision": "40655779beab2f60bcbf86169ebc27de",
+    "url": "./static/media/clients-04.40655779.svg"
+  },
+  {
+    "revision": "79cb9a522cad9b177c7fab7399c2efa8",
+    "url": "./static/media/clients-05.79cb9a52.svg"
   },
   {
     "revision": "58fb4e7bb68986ae7d93f9dbe73001e8",
@@ -56,12 +96,60 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/cta-illustration.877da405.svg"
   },
   {
+    "revision": "8f0b8ad25f486df96edf31a7a56f645e",
+    "url": "./static/media/feature-tile-icon-01.8f0b8ad2.svg"
+  },
+  {
+    "revision": "5ce4d446718f2100ce4d81b6c9ecebba",
+    "url": "./static/media/feature-tile-icon-02.5ce4d446.svg"
+  },
+  {
+    "revision": "1200e2b939e681d7467f26f3af8280a3",
+    "url": "./static/media/feature-tile-icon-03.1200e2b9.svg"
+  },
+  {
+    "revision": "97178333900527f5c9e6cc583ab909e5",
+    "url": "./static/media/feature-tile-icon-04.97178333.svg"
+  },
+  {
+    "revision": "983d4402972fba559e98745a2cc128e3",
+    "url": "./static/media/feature-tile-icon-05.983d4402.svg"
+  },
+  {
+    "revision": "830747154e52407c0b2aa3d60497d759",
+    "url": "./static/media/feature-tile-icon-06.83074715.svg"
+  },
+  {
+    "revision": "ac85d8f67aa010b726f91e1b5793f25d",
+    "url": "./static/media/features-split-icon.ac85d8f6.svg"
+  },
+  {
     "revision": "c0030329a697fbfbd2337cd0f16cd821",
     "url": "./static/media/features-split-image.c0030329.svg"
   },
   {
+    "revision": "a1f242f7252b49dfa7cea0077adeaf54",
+    "url": "./static/media/features-split-top-01.a1f242f7.png"
+  },
+  {
+    "revision": "f99d78249b28b9f70249348be98bf865",
+    "url": "./static/media/features-split-top-02.f99d7824.png"
+  },
+  {
+    "revision": "390a1f4ffa4e0bc7ae90fff4dc5efb70",
+    "url": "./static/media/features-split-top-03.390a1f4f.png"
+  },
+  {
+    "revision": "9977570bf62c532c5229e6c2a1d8967d",
+    "url": "./static/media/frame-icon.9977570b.svg"
+  },
+  {
     "revision": "c35dd856ec8eb2b4f3d935b6552d33e9",
     "url": "./static/media/header.c35dd856.jpg"
+  },
+  {
+    "revision": "9e7b9064e43d48bd795af5db89824660",
+    "url": "./static/media/hero-image.9e7b9064.svg"
   },
   {
     "revision": "e22ec14c8d912e8f793a37181e4eea5e",
@@ -128,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/illustration-section-06.66abc7f8.svg"
   },
   {
+    "revision": "af4c986b781b2d6ca89ecb9356e4e451",
+    "url": "./static/media/image-placeholder.af4c986b.png"
+  },
+  {
     "revision": "9d1da83d3b4fa9ea3c89719f24ac449c",
     "url": "./static/media/logo.9d1da83d.svg"
   },
@@ -136,8 +228,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/members.04ba262f.csv"
   },
   {
+    "revision": "664d079f7bab0850114417d1b1ed2624",
+    "url": "./static/media/news-image-01.664d079f.jpg"
+  },
+  {
+    "revision": "224630174eae779db2dbcc76bda6d757",
+    "url": "./static/media/news-image-02.22463017.jpg"
+  },
+  {
+    "revision": "82a0a65599db487753eba9410b2f92b4",
+    "url": "./static/media/news-image-03.82a0a655.jpg"
+  },
+  {
+    "revision": "9a00426ff68182bc626617dbaf2d639b",
+    "url": "./static/media/team-member-01.9a00426f.jpg"
+  },
+  {
+    "revision": "866e7db35fa53a58962df4e10d98ebbe",
+    "url": "./static/media/team-member-03.866e7db3.jpg"
+  },
+  {
+    "revision": "0a817cc6550885df4fe1ab4fc4224aa4",
+    "url": "./static/media/team-member-04.0a817cc6.jpg"
+  },
+  {
+    "revision": "2283ad00148b6684143c47877d55bff6",
+    "url": "./static/media/team-member-05.2283ad00.jpg"
+  },
+  {
     "revision": "89db2b8e1b33f8fbb1ff7899005932ab",
     "url": "./static/media/universitys.89db2b8e.csv"
+  },
+  {
+    "revision": "113234f84fb5199167037ded536e5dba",
+    "url": "./static/media/uol_logo.113234f8.jpg"
   },
   {
     "revision": "22e4e6cd0ce1b7684d8aed4f99722b6b",
