@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.51af2669.chunk.css",
-    "main.js": "./static/js/main.1543c8f6.chunk.js",
-    "main.js.map": "./static/js/main.1543c8f6.chunk.js.map",
+    "main.js": "./static/js/main.14d9e182.chunk.js",
+    "main.js.map": "./static/js/main.14d9e182.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.f9e61779.js",
     "runtime~main.js.map": "./static/js/runtime~main.f9e61779.js.map",
-    "static/js/2.0d39ad8a.chunk.js": "./static/js/2.0d39ad8a.chunk.js",
-    "static/js/2.0d39ad8a.chunk.js.map": "./static/js/2.0d39ad8a.chunk.js.map",
+    "static/js/2.b52fceac.chunk.js": "./static/js/2.b52fceac.chunk.js",
+    "static/js/2.b52fceac.chunk.js.map": "./static/js/2.b52fceac.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f300fb920a1c00cd1166c78a8aabcb7b.js": "./precache-manifest.f300fb920a1c00cd1166c78a8aabcb7b.js",
+    "precache-manifest.fff989808bd9b660cf5d5e90d271b477.js": "./precache-manifest.fff989808bd9b660cf5d5e90d271b477.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.51af2669.chunk.css.map": "./static/css/main.51af2669.chunk.css.map",
     "static/media/2020.png": "./static/media/2020.ee4bdc3c.png",
@@ -79,6 +79,7 @@
     "static/media/universitys.csv": "./static/media/universitys.89db2b8e.csv",
     "static/media/unknown.jpg": "./static/media/unknown.a8651b30.jpg",
     "static/media/uol_logo.jpg": "./static/media/uol_logo.113234f8.jpg",
+    "static/media/venueHolder.png": "./static/media/venueHolder.d1cb3eb3.png",
     "static/media/video-placeholder.svg": "./static/media/video-placeholder.22e4e6cd.svg"
   }
 }
