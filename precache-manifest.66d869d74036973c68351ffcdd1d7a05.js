@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99c8e963a53c7c75539ae8ac2055b763",
+    "revision": "054d61e2e11f62fbbd9f46da325ec2ed",
     "url": "./index.html"
   },
   {
-    "revision": "63bf59e1b046ba2923e3",
+    "revision": "665dba4d140f02ef6bc2",
     "url": "./static/css/main.51af2669.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.b52fceac.chunk.js"
   },
   {
-    "revision": "63bf59e1b046ba2923e3",
-    "url": "./static/js/main.14d9e182.chunk.js"
+    "revision": "665dba4d140f02ef6bc2",
+    "url": "./static/js/main.3ce2e53a.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/U of Campinas.2db775cc.png"
   },
   {
-    "revision": "21f01a00a25d3390ee4feafb0276c639",
-    "url": "./static/media/UCC2022-TPC.21f01a00.csv"
+    "revision": "8d1a572f6e1f664e156abd41536452b0",
+    "url": "./static/media/UCC2022-TPC.8d1a572f.csv"
   },
   {
     "revision": "6a6c07fa6f57c12f475a6ecef56f345b",
