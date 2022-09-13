@@ -98,9 +98,9 @@ class FeaturesSplit extends React.Component {
                   <p className="m-0">
                     UCC2022 is the premier IEEE/ACM conference for areas related to Cloud Computing as a Utility and provides an international forum for leading researchers and practitioners in this important and growing field.
                   </p>
-                  <p>
-                    UCC2022 will be hosted at the Washington State University. Portland, Oregon’s largest city, sits on the Columbia and Willamette rivers, in the shadow of snow-capped Mount Hood.
-                  </p>
+                  {/*<p>*/}
+                  {/*  UCC2022 will be hosted at the Washington State University. Portland, Oregon’s largest city, sits on the Columbia and Willamette rivers, in the shadow of snow-capped Mount Hood.*/}
+                  {/*</p>*/}
                 </div>
                 <div className={
                   classNames(
@@ -114,7 +114,7 @@ class FeaturesSplit extends React.Component {
                     height={396} />
                   <div style={img02Style}>
                     <Image
-                      src={require('./../../assets/images/campus-entrance-fall.png')}
+                      src={require('./../../assets/images/venueHolder.png')}
                       alt="Features split top 02"
                       width={344}
                       height={212} />

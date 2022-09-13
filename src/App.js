@@ -17,6 +17,8 @@ import Login from './views/Login';
 import Signup from './views/Signup';
 import Workshop from "./views/Workshop";
 import Poster from "./views/Poster";
+import Keynote from "./views/Keynote";
+import TravelAward from "./views/TravelAward";
 
 class App extends React.Component {
 
@@ -46,9 +48,11 @@ class App extends React.Component {
                         <AppRoute path="/chairs-committees" component={ChairsCommittees} layout={LayoutAlternative} />
                         <AppRoute path="/workshops" component={Workshop} layout={LayoutAlternative} />
                         <AppRoute path="/poster" component={Poster} layout={LayoutAlternative} />
-                        <AppRoute path="/keynotes" component={Program} layout={LayoutAlternative} />
+                        <AppRoute path="/keynotes" component={Keynote} layout={LayoutAlternative} />
                         <AppRoute path="/doctoral-symposium" component={Program} layout={LayoutAlternative} />
+                        <AppRoute path="/travel-award" component={TravelAward} layout={LayoutAlternative} />
                         <AppRoute path="/registration" component={Program} layout={LayoutAlternative} />
+                        <AppRoute path="/venue" component={Program} layout={LayoutAlternative} />
                         {/*<AppRoute path="/" component={Login} layout={LayoutSignin} />*/}
                         {/*<AppRoute path="/signup" component={Signup} layout={LayoutSignin} />*/}
                     </Switch>

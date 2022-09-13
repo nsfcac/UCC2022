@@ -19,10 +19,10 @@ const defaultProps = {
 //     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 // ]
 const _event = [
-    {key:'Paper Submissions Due',date: '8/8/2022'},
-    {key:'Notification of Acceptance',date: '9/15/2022'},
-    {key:'Camera ready papers due',date: '9/30/2022'},
-    {key:'Early registration Deadline',date: '10/15/2022'},
+    {key:'Paper Submissions Due (Final)',date: '9/15/2022'},
+    {key:'Notification of Acceptance',date: '10/15/2022'},
+    {key:'Camera ready papers due',date: '10/31/2022'},
+    {key:'Early registration Deadline',date: '11/15/2022'},
     // {key:'Conference',date: ['12/6/2021','12/9/2021']},
 ]
 class ImportantDate extends React.Component {

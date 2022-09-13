@@ -36,6 +36,7 @@ class HeroFull extends React.Component {
       bottomDivider,
       hasBgColor,
       invertColor,
+      content,
       ...props
     } = this.props;
 
@@ -54,6 +55,7 @@ class HeroFull extends React.Component {
       bottomDivider && 'has-bottom-divider'
     );
 
+    const {title, inside} = content??{};
     return (
       <section
         {...props}
@@ -64,31 +66,36 @@ class HeroFull extends React.Component {
             <div className="hero-content">
               <div className="container-xs">
                 <h1 className="mt-0 reveal-from-top">
-                  Engage Your Visitors with a beautiful template
+                  {title??'Engage Your Visitors with a beautiful template'}
                 </h1>
               </div>
             </div>
-            <div className="hero-figure illustration-element-02 reveal-from-top" data-reveal-delay="200">
+            {inside?
+                <div className="hero-figure illustration-element-02 reveal-from-top" data-reveal-delay="200">
+                  {inside}
+                </div>
+                :<><div className="hero-figure illustration-element-02 reveal-from-top" data-reveal-delay="200">
               <a
-                data-video="https://player.vimeo.com/video/174002812"
-                href="#0"
-                aria-controls="video-modal"
-                onClick={this.openModal}
+                  data-video="https://player.vimeo.com/video/174002812"
+                  href="#0"
+                  aria-controls="video-modal"
+                  onClick={this.openModal}
               >
                 <Image
-                  className="has-shadow"
-                  src={require('./../../assets/images/video-placeholder.svg')}
-                  alt="Video"
-                  width={712}
-                  height={400} />
+                    className="has-shadow"
+                    src={require('./../../assets/images/video-placeholder.svg')}
+                    alt="Video"
+                    width={712}
+                    height={400}/>
               </a>
             </div>
-            <Modal
+              <Modal
               id="video-modal"
               show={this.state.videoModalActive}
               handleClose={this.closeModal}
               video="https://player.vimeo.com/video/174002812"
-              videoTag="iframe" /> 
+              videoTag="iframe" />
+            </>}
           </div>
         </div>
       </section>
