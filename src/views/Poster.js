@@ -61,10 +61,10 @@ class Secondary extends React.Component {
                     </div>
                 </GenericSection>
                 <ImportantDate topDivider event={[
-                    {key: 'Poster submissions due', date: '15 September 2022'},
-                    {key: 'Notification of Acceptance', date: '1 October 2022'},
-                    {key: 'Camera-ready papers due', date: 'TBD'},
-                    {key: 'Early + author registration deadline', date: 'TBD'},
+                    {key: 'Poster submissions due', date: '9/15/2022'},
+                    {key: 'Notification of Acceptance', date: '10/15/2022'},
+                    {key: 'Camera-ready papers due', date: '10/31/2022'},
+                    {key: 'Early + author registration deadline', date: '11/15/2022'},
                     {key: 'Poster session at the conference', date: 'TBD'},
                 ]}/>
                 <GenericSection topDivider>

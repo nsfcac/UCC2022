@@ -25,6 +25,7 @@ class GenericSection extends React.Component {
       bottomDivider,
       hasBgColor,
       invertColor,
+      innerClass=true,
       ...props
     } = this.props;
 
@@ -38,7 +39,7 @@ class GenericSection extends React.Component {
     );
 
     const innerClasses = classNames(
-      'section-inner',
+      innerClass && 'section-inner',
       topDivider && 'has-top-divider',
       bottomDivider && 'has-bottom-divider'
     );

@@ -27,22 +27,23 @@ Michela has a long history of interdisciplinary work with scientists. Her resear
     {
         title:'Vehicle Computing: Vision and Challenges',
         authorName: 'Weisong Shi',
-        orgName: 'Wayne State University, US',
+        orgName: 'University of Delaware',
         avatar: 'Weisong Shi.jpg',
         abstract: `Vehicles have been majorly used for transportation in the last century. With the proliferation of onboard computing and communication capabilities, we envision that future connected vehicle (CVs) will be serving as a mobile computing platform in addition to their conventional transportation role for the next century. In this article, we present the vision of Vehicle Computing, i.e., CVs are the perfect computation platforms, and connected devices/things with limited computation capacities can rely on surrounding CVs to perform complex computational tasks. We also discuss Vehicle Computing from several aspects, including several key and enabling technologies, case studies, open challenges, and the potential business model.`,
-        bio: `Dr. Weisong Shi is a Professor of Computer Science at Wayne State University, and directs the Connected and Autonomous Research (CAR) Laboratory, investigating performance, reliability, power- and energy-efficiency, trust and privacy issues of networked computer systems and applications. Dr. Shi is an internationally acclaimed leader in the edge computing and autonomous driving, his pioneer paper entitled “Edge Computing: Vision and Challenges” has been cited more than 5000 times. Dr. Shi is the chair of IEEE Computer Society Special Technology Community on Autonomous Driving Technologies (ADT), the steering committee member of the Autoware Foundation. He is an IEEE Fellow and an ACM Distinguished Scientist. More information can be found at http://weisongshi.org`
+        bio: <p>Dr. Weisong Shi is a Professor and Chair of the <a href={"https://www.cis.udel.edu/"} target={"_blank"}>Department of Computer and Information Sciences</a> at the University of Delaware (UD)
+            . Before joining UD, he was a faculty of Computer Science at Wayne State University, and directs the <a href={"https://www.thecarlab.org/"} target={"_blank"}>Connected and Autonomous Research</a> (CAR) Laboratory, investigating performance, reliability, power- and energy-efficiency, trust and privacy issues of networked computer systems and applications. Dr. Shi is an internationally acclaimed leader in the edge computing and autonomous driving, his pioneer paper entitled “Edge Computing: Vision and Challenges” has been cited more than 5000 times. Dr. Shi is the chair of IEEE Computer Society Special Technology Community on Autonomous Driving Technologies (ADT), the steering committee member of the Autoware Foundation. He is an IEEE Fellow and an ACM Distinguished Scientist. More information can be found at <a href={"http://weisongshi.org"} target={"_blank"}>http://weisongshi.org</a></p>
     },
 
 ]
 
 class Keynote extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-          {data.map(d=><KeyNoteSection key={d.authorName} invertMobile imageFill className="illustration-section-03" content={d}/>)}
-      </React.Fragment>
-    );
-  }
+    render() {
+        return (
+            <React.Fragment>
+                {data.map(d=><KeyNoteSection key={d.authorName} invertMobile imageFill className="illustration-section-03" content={d}/>)}
+            </React.Fragment>
+        );
+    }
 }
 
 export default Keynote;
