@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eab185b3ae3785f3466040f966dea8de",
+    "revision": "9f9903bc5135148ffac699434c447745",
     "url": "./index.html"
   },
   {
-    "revision": "bdb8e125334da2d6c704",
+    "revision": "d76ac4e8e64482009b62",
     "url": "./static/css/main.51af2669.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.36a17712.chunk.js"
   },
   {
-    "revision": "bdb8e125334da2d6c704",
-    "url": "./static/js/main.cbfca08b.chunk.js"
+    "revision": "d76ac4e8e64482009b62",
+    "url": "./static/js/main.007cdb82.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/UCC2022-TPC.8d1a572f.csv"
   },
   {
-    "revision": "6a6c07fa6f57c12f475a6ecef56f345b",
-    "url": "./static/media/UCC_2022_workshops.6a6c07fa.csv"
+    "revision": "8f9c7d9e3a726040c7e42bbc81aabbe4",
+    "url": "./static/media/UCC_2022_workshops.8f9c7d9e.csv"
   },
   {
     "revision": "b3ee05073b353856c8e63eb22e7c9836",
