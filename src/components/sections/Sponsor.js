@@ -113,6 +113,13 @@ class Sponsor extends React.Component {
                   width={150}
                   height={30} />
               </li>
+              <li className="reveal-scale-up" data-reveal-delay="400">
+                <Image
+                    src={require('./../../assets/images/NSF_4-Color_bitmap_Logo.png')}
+                    alt="Client 05"
+                    width={100}
+                    height={30} />
+              </li>
             </ul>
           </div>
         </div>

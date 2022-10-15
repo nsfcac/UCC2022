@@ -90,6 +90,11 @@ class Keynote extends React.Component {
                         <p>
                             UCC/BDCAT is committed to promoting diversity, equity, and inclusion. The student travel award is sponsored by the U.S. National Science Foundation.
                         </p>
+                        <div  className="center-content">
+                            <Image src={require(`./../assets/images/NSF_4-Color_bitmap_Logo.png`)}
+                                   width={200}
+                                   height={200}/>
+                        </div>
                     </div>
                 </GenericSection>
                 {/*<HeroFull content={{title: 'Student Travel Award',*/}

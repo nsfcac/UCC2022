@@ -20,6 +20,7 @@ import Poster from "./views/Poster";
 import Keynote from "./views/Keynote";
 import TravelAward from "./views/TravelAward";
 import DoctorSymposium from "./views/DoctorSymposium";
+import Registration from "./views/Registration";
 
 class App extends React.Component {
 
@@ -52,7 +53,7 @@ class App extends React.Component {
                         <AppRoute path="/keynotes" component={Keynote} layout={LayoutAlternative} />
                         <AppRoute path="/doctoral-symposium" component={DoctorSymposium} layout={LayoutAlternative} />
                         <AppRoute path="/travel-award" component={TravelAward} layout={LayoutAlternative} />
-                        <AppRoute path="/registration" component={Program} layout={LayoutAlternative} />
+                        <AppRoute path="/registration" component={Registration} layout={LayoutAlternative} />
                         <AppRoute path="/venue" component={Program} layout={LayoutAlternative} />
                         {/*<AppRoute path="/" component={Login} layout={LayoutSignin} />*/}
                         {/*<AppRoute path="/signup" component={Signup} layout={LayoutSignin} />*/}
