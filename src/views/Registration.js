@@ -122,7 +122,7 @@ class Keynote extends React.Component {
                     <p>
                         All refund/cancellation requests must be received in writing to registration+UCCBDCAT@computer.org by <span style={{color: 'red'}}>{deadline[1].date}</span>,
                         11:59 PM Dateline. There will be an administrative fee of <span style={{color: 'red'}}>US$150</span>
-                        for cancelled registrations and <span style={{color: 'red'}}>US$100</span> deducted for One-Day registrations from each cancellation.
+                         for cancelled registrations and <span style={{color: 'red'}}>US$100</span> deducted for One-Day registrations from each cancellation.
                     </p>
                     <p>
                         You may only cancel your registration before the cancellation deadline. Author registration is not refundable.
