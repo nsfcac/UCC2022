@@ -69,7 +69,7 @@ class TitlewithCountdown extends React.Component {
                     15th IEEE/ACM International Conference on Utility and Cloud Computing (UCC2022)
                   </h2>
                   <p className="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                    December 6-9, 2022 - Portland, Oregon, USA
+                    December 6-9, 2022 - Vancouver, Washington, USA
                   </p>
                   <Countdown date={new Date('12/6/2022')}/>
                   <div className="reveal-from-left" data-reveal-delay="400">
@@ -82,7 +82,7 @@ class TitlewithCountdown extends React.Component {
                 <div className="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
                   <Image
                     className="has-shadow"
-                    src={require('./../../assets/images/header.jpg')}
+                    src={require('./../../assets/images/header.JPG')}
                     alt="Hero"
                     width={528}
                     height={396} />

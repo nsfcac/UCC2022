@@ -63,7 +63,7 @@ class Program extends React.Component {
                   <div className="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
                     <Image
                         className="has-shadow"
-                        src={require('./../assets/images/header.jpg')}
+                        src={require('./../assets/images/header.JPG')}
                         alt="Hero"
                         width={528}
                         height={396} />
