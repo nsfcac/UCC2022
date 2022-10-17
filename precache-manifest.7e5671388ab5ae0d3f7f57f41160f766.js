@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de2e5a0bc86b3ce5147a7a1c394ba04b",
+    "revision": "94647c2b97da2e78f15fe86c67070aa6",
     "url": "./index.html"
   },
   {
-    "revision": "4ea72273ca6680c2f6f5",
+    "revision": "39a2650e65d3ec6304bf",
     "url": "./static/css/main.1943ec28.chunk.css"
   },
   {
-    "revision": "c912493aedaba0f292da",
-    "url": "./static/js/2.61c35b7f.chunk.js"
+    "revision": "285a58fbe49c1592a3ec",
+    "url": "./static/js/2.56d819b5.chunk.js"
   },
   {
-    "revision": "4ea72273ca6680c2f6f5",
-    "url": "./static/js/main.2251af9e.chunk.js"
+    "revision": "39a2650e65d3ec6304bf",
+    "url": "./static/js/main.5a2f3a9b.chunk.js"
   },
   {
     "revision": "a9f1d282f951fc950ad9",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f5b94c9ed75ea55db74a9c4cfbbdfda4",
     "url": "./static/media/Alan Sill.f5b94c9e.jpg"
+  },
+  {
+    "revision": "7b50d7f17f307ea65bf198ec85dc133a",
+    "url": "./static/media/Alex Uta.7b50d7f1.jpg"
   },
   {
     "revision": "193b6f06e5b4b36513fae04a423495ef",
@@ -126,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a44f3870ecaaf26e84adce61be2fb251",
     "url": "./static/media/North Texas.a44f3870.png"
+  },
+  {
+    "revision": "59245ce1a174bde5af2303e68f1f35c9",
+    "url": "./static/media/Pamela Delgado.59245ce1.jpg"
   },
   {
     "revision": "34c1c1450de41cc02fece8c1c158510f",
@@ -356,8 +364,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/logo.9d1da83d.svg"
   },
   {
-    "revision": "04ba262fb9030588c75d56190b09e754",
-    "url": "./static/media/members.04ba262f.csv"
+    "revision": "6495d2e804631442646fff000d1c7f62",
+    "url": "./static/media/members.6495d2e8.csv"
   },
   {
     "revision": "664d079f7bab0850114417d1b1ed2624",
