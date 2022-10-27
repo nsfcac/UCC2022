@@ -48,12 +48,11 @@ class Keynote extends React.Component {
                 <GenericSection topDivider innerClass={false}>
                     <div className="container">
                         <h3 className="mt-0">Information for Awardees</h3>
-                        <p>If you are funded by this award, you must: </p>
+                        <h4>Note that if you are funded by this award, you ask that you:</h4>
                         <ul>
-                            <li>Attend the full conference in person (check-in on Dec 5, and check-out on Dec 10, 2022)</li>
-                            <li>Serve as student volunteer at the conference</li>
-                            <li>Stay (with one other student*) at the conference hotel</li>
-                            <li>Attend the two student awardees meetings (one on Dec 6, and one on Dec 9, 2022)</li>
+                            <li>Attend the conference in person. Awardees are encouraged to attend as many days as possible to engage with the community. </li>
+                            <li>Serve as student volunteer while at the conference</li>
+                            <li>Stay (with one other student *) at the conference hotel</li>
                             <li>Submit a report to the Student Travel Award Chair within 1 month after the conference</li>
                         </ul>
                         <p className="news-item-more text-xs mb-8">
