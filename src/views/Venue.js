@@ -158,14 +158,9 @@ class Keynote extends React.Component {
                                     <CardContent>
                                         <Typography gutterBottom variant="h6" component="div">By Train->Bus (non-stop)->0.5 mile walk</Typography>
                                         <Typography paragraph variant="body2" color="text.secondary">The bus will take you from the train station to a spot 0.5 miles away from the hotel, where you can walk if you want</Typography>
+                                        <Typography>Please use the link here <a href={"https://goo.gl/maps/mb4VxMLXDdobJybZ6"} target={"_blank"}>https://goo.gl/maps/mb4VxMLXDdobJybZ6</a></Typography>
                                     </CardContent>
-                                    <CardMedia
-                                        component={"iframe"}
-                                        image="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d89346.33540933572!2d-122.6653262!3d45.5890776!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x5495a0aa74dc20d1%3A0x5bda7693380e5c3d!2sPortland%20International%20Airport%20(PDX)%2C%207000%20NE%20Airport%20Way%2C%20Portland%2C%20OR%2097218!3m2!1d45.589769399999994!2d-122.59509419999999!4m5!1s0x5495a8bb2cea303b%3A0x7bac616ff6af8e0a!2sAC%20Hotel%20by%20Marriott%20Vancouver%20Waterfront%2C%20Parking%20lot%2C%20West%20Columbia%20Way%2C%20Vancouver%2C%20WA!3m2!1d45.622779699999995!2d-122.67592479999999!5e0!3m2!1sen!2sus!4v1666889488435!5m2!1sen!2sus"
-                                        width="600" height="400" style={{border:0}} allowFullScreen="" loading="lazy"
-                                        referrerPolicy="no-referrer-when-downgrade"
-                                        alt={"googlemap"}
-                                    />
+
                                     <br/>
                                     <CardContent>
                                         <Typography gutterBottom variant="h6" component="div">By Car/Uber/Lyft</Typography>

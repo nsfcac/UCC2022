@@ -5,7 +5,7 @@ const data = [
     {
         title:'IN SITU DATA ANALYTICS FOR NEXT GENERATION MOLECULAR DYNAMICS WORKFLOWS',
         authorName: 'Michela Taufer',
-        orgName: 'Tickle College of Engineering, US',
+        orgName: 'University of Tennessee Knoxville',
         avatar: 'Michela Taufer.jpg',
         abstract: `Molecular dynamics (MD) simulations study important phenomena in chemistry, materials science, molecular biology, and drug design. They are also one of the most common simulations on petascale and, it is likely they will be equally common on exascale machines as those machines become more widely available. Next-generation supercomputers will have dramatically higher performance than current systems, generating more data that needs to be analyzed (i.e., in terms of number and length of molecular dynamics trajectories). The coordination of data generation and analysis cannot rely on manual, centralized approaches as it does now. 
 

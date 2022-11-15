@@ -40,7 +40,7 @@ class Keynote extends React.Component {
                         <ul>
                             <li>The applicant must be 18 years or older by December 5, 2022.</li>
                             <li>The applicant must be a full-time student or postdoc at the time of submission.</li>
-                            <li>The applicant need not be affiliated with a U.S. based institution to apply.</li>
+                            <li>The application must be affiliated with a U.S. based institution to apply, regardless of nationality.</li>
                             <li>A letter of support is required to complete the application. The applicant must provide the name and email of a letter writer on the form.</li>
                         </ul>
                     </div>
