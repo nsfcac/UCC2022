@@ -1373,21 +1373,6 @@ class Program extends React.Component {
                                                             Radu Prodan and Helmut Wöllik
                                                         </td>
                                                     </tr>
-                                                    <tr style={{height: "20px"}}>
-                                                        <td className="s3">8329</td>
-                                                        <td className="s4">Microservices vs Serverless Deployment in AWS: A Case Study with an Image Processing Application</td>
-                                                        <td className="s5">Raju Shrestha and Beebu Nisha</td>
-                                                    </tr>
-                                                    <tr style={{height: "20px"}}>
-                                                        <td className="s3">9361</td>
-                                                        <td className="s4">Analyzing Data Intensive Networks on Chips</td>
-                                                        <td className="s5">Junwei Zhang and Thomas G. Robertazzi</td>
-                                                    </tr>
-                                                    <tr style={{height: "20px"}}>
-                                                        <td className="s3">5934</td>
-                                                        <td className="s4">Geofence-Based Service Discovery in the Computing Continuum</td>
-                                                        <td className="s5">Kurt Horvath, Dragi Kimovski, Christoph Uran, Radu Prodan and Helmut Wöllik</td>
-                                                    </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
