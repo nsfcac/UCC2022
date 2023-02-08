@@ -41,7 +41,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run deploy`
 
-Builds the app for production to the `build` folder and publish the app on the `gh-page` barnch.<br>
+Builds the app for production to the `build` folder and publish the app on the `gh-pages` barnch.<br>
 
 If you use  custom domain, you need to fill the domain `every time` you deploy.
 
