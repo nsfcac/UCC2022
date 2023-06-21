@@ -6,6 +6,7 @@ import "./Program.css"
 import {CardMedia, Tab, Tabs} from "@mui/material";
 import {a11yProps, TabPanel} from "../components/elements/TabPanel";
 import Paper from "@mui/material/Paper";
+import {Link} from "react-router-dom";
 
 class Program extends React.Component {
     constructor(props) {
@@ -76,7 +77,7 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s0  button-primary" colSpan="5">December 6, 2022</td>
+                                            <td className="s0  button-primary" colSpan="5">Tuesday December 6, 2022</td>
                                         </tr>
                                         <tr>
                                             <td className="s3">08:00 -- 18:00</td>
@@ -86,9 +87,9 @@ class Program extends React.Component {
 
                                             <td className="s3" dir="ltr">09:00 - 12:00</td>
                                             <td className="s4">Parallel Sessions</td>
-                                            <td className="s5" dir="ltr">CloudAM 1-2</td>
+                                            <td className="s5" dir="ltr"><a href={'https://sites.google.com/unizar.es/cloudam2022'} target={'_blank'}>CloudAM 1-2</a></td>
                                             <td className="s5" dir="ltr">REU</td>
-                                            <td className="s5">BlockCPS (online)</td>
+                                            <td className="s5"><a href={'https://sites.google.com/view/blockcps2022'} target={'_blank'}>BlockCPS (online)</a></td>
                                         </tr>
                                         <tr>
 
@@ -99,15 +100,15 @@ class Program extends React.Component {
 
                                             <td className="s3">13:00 - 17:00</td>
                                             <td className="s4">Parallel Sessions</td>
-                                            <td className="s5" dir="ltr">DML-ICC 1-2</td>
+                                            <td className="s5" dir="ltr"><a href={'http://www.lrc.ic.unicamp.br/dml-icc/'} target={'_blank'}>DML-ICC 1-2</a></td>
                                             <td className="s5" dir="ltr">REU</td>
-                                            <td className="s5">BlockCPS (online)</td>
+                                            <td className="s5"><a href={'https://sites.google.com/view/blockcps2022'} target={'_blank'}>BlockCPS (online)</a></td>
                                         </tr>
                                         <tr style={{height: "20px"}}>
                                         </tr>
                                         <tr>
 
-                                            <td className="s0  button-primary" colSpan="5">December 7, 2022</td>
+                                            <td className="s0  button-primary" colSpan="5">Wednesday December 7, 2022</td>
                                         </tr>
                                         <tr>
 
@@ -137,7 +138,7 @@ class Program extends React.Component {
                                             <td className="s4">Parallel Sessions</td>
                                             <td className="s5">UCC 1</td>
                                             <td className="s5">BDCAT 1</td>
-                                            <td className="s5" dir="ltr">CloudAM 3</td>
+                                            <td className="s5" dir="ltr"><a href={'https://sites.google.com/unizar.es/cloudam2022'} target={'_blank'}>CloudAM 3</a></td>
                                         </tr>
                                         <tr>
 
@@ -167,7 +168,7 @@ class Program extends React.Component {
                                             <td className="s4">Parallel Sessions</td>
                                             <td className="s5">UCC 2</td>
                                             <td className="s5">BDCAT 2</td>
-                                            <td className="s5" dir="ltr">Intel4EC + MLHI</td>
+                                            <td className="s5" dir="ltr"><a href={'https://www.intel4ec-workshop.nl/'} target={'_blank'}>Intel4EC</a> + <a href={'https://sites.google.com/view/mlhi2022'} target={'_blank'}>MLHI</a></td>
                                         </tr>
                                         <tr>
 
@@ -185,7 +186,7 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s0  button-primary" colSpan="5">December 8, 2022</td>
+                                            <td className="s0  button-primary" colSpan="5">Thursday December 8, 2022</td>
                                         </tr>
                                         <tr>
 
@@ -209,7 +210,7 @@ class Program extends React.Component {
                                             <td className="s4">Parallel Sessions</td>
                                             <td className="s5">UCC 3</td>
                                             <td className="s5">BDCAT 3</td>
-                                            <td className="s5" dir="ltr">Intel4EC 2</td>
+                                            <td className="s5" dir="ltr"><a href={'https://www.intel4ec-workshop.nl/'} target={'_blank'}>Intel4EC 2</a></td>
                                         </tr>
                                         <tr>
 
@@ -228,14 +229,18 @@ class Program extends React.Component {
                                             <td className="s4">Parallel Sessions</td>
                                             <td className="s5">UCC 4</td>
                                             <td className="s5">BDCAT 4</td>
-                                            <td className="s5" dir="ltr">Intel4EC 3</td>
+                                            <td className="s5" dir="ltr"><a href={'https://www.intel4ec-workshop.nl/'} target={'_blank'}>Intel4EC 3</a></td>
                                         </tr>
                                         <tr>
 
                                             <td className="s3">15:30 - 16:00</td>
                                             <td className="s4" colSpan="4">Tea/Coffee break</td>
                                         </tr>
-
+                                        <tr>
+                                            <td className="s3">16:00 - 17:00</td>
+                                            <td className="s4">Tutorial: <Link to={'/tutorial'} target={'_blank'}>E2C</Link></td>
+                                            <td className="s5" dir="ltr" colSpan="3"><Link to={'/tutorial'} target={'_blank'}>Heterogeneous Edge to cloud simulator</Link> <br/>by Ali Mokhtari <em>(In Andorra, 1st Floor Ballroom)</em></td>
+                                        </tr>
                                         <tr>
 
                                             <td className="s3">18:00 - 20:30</td>
@@ -258,7 +263,7 @@ class Program extends React.Component {
                                         </tr>
                                         <tr>
 
-                                            <td className="s0  button-primary" colSpan="5">December 9, 2022</td>
+                                            <td className="s0  button-primary" colSpan="5">Friday December 9, 2022</td>
                                         </tr>
                                         <tr>
 
@@ -282,7 +287,7 @@ class Program extends React.Component {
                                             <td className="s4">Parallel Sessions</td>
                                             <td className="s5">UCC 5</td>
                                             <td className="s5">BDCAT 5</td>
-                                            <td className="s5" dir="ltr">CIFS</td>
+                                            <td className="s5" dir="ltr"><a href={'http://cifs.servicelaboratory.ch/cifs2022/'} target={'_blank'}>CIFS</a></td>
                                         </tr>
                                         <tr>
 
@@ -295,7 +300,7 @@ class Program extends React.Component {
                                             <td className="s4">Parallel Sessions</td>
                                             <td className="s5">UCC 6</td>
                                             <td className="s5">BDCAT 6</td>
-                                            <td className="s5" dir="ltr">CIFS</td>
+                                            <td className="s5" dir="ltr"><a href={'http://cifs.servicelaboratory.ch/cifs2022/'} target={'_blank'}>CIFS</a></td>
                                         </tr>
                                         <tr>
 
@@ -312,6 +317,7 @@ class Program extends React.Component {
                                 </div>
                             </div>
                         </div>
+
 
                         <div className={innerClasses} style={{paddingTop:0}}>
                             <div className="hero-content">
@@ -397,7 +403,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud Computing Paradigms		</td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Edge-Cloud Computing Paradigms (Session Chair: Jakob Luettgau)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -476,14 +482,9 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s13 s3" dir="ltr">Invited</td>
-                                                        <td className="s4" dir="ltr">Scaling Data Analysis Services in a Federated
-                                                            Learning Environment at the Edge
+                                                        <td className="s4" dir="ltr">Scaling Data Analysis Services in an Edge-based Federated Learning Environment
                                                         </td>
-                                                        <td className="s5" dir="ltr">Alessio Catalfamo, Lorenzo Carnevale, Antonino
-                                                            Galletta, Antonio
-                                                            Celesti, Maria
-                                                            Fazio, Massimo Villari
-                                                        </td>
+                                                        <td className="s5" dir="ltr">Alessio Catalfamo, Lorenzo Carnevale, Antonino Galletta, Francesco Martella, Antonio Celesti, Maria Fazio and Massimo Villari</td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
@@ -514,7 +515,7 @@ class Program extends React.Component {
 
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="2">Cloud and Edge
                                                             Platforms and
-                                                            Mobility
+                                                            Mobility (Session Chair: Geir Horn)
                                                         </td>
 
                                                     </tr>
@@ -574,7 +575,7 @@ class Program extends React.Component {
 
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="2">Cloud Networking
                                                             and Data
-                                                            Services
+                                                            Services (Session Chair: Mauro Lemus Alarcon)
                                                         </td>
 
                                                     </tr>
@@ -646,7 +647,7 @@ class Program extends React.Component {
 
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="2">Cloud/Serverless
                                                             Applications and
-                                                            Workflows
+                                                            Workflows (Session Chair: Abdi Vicenciodelmoral)
                                                         </td>
 
                                                     </tr>
@@ -730,7 +731,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
-                                                            Data Analysis
+                                                            Data Analysis (Session Chair: Jianwu Wang)
                                                         </td>
 
                                                     </tr>
@@ -779,7 +780,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
-                                                            Data Computation and Systems
+                                                            Data Computation and Systems (Session Chair: Xinghui Zhao)
                                                         </td>
 
                                                     </tr>
@@ -806,17 +807,21 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s3" dir="ltr">5738-short</td>
-                                                        <td className="s4" dir="ltr">Supporting Green Neuromorphic
-                                                            Computing: Machine Learning Guided Microfabrication for
-                                                            Resistive Random Access Memory
+                                                        <td className="s3">8432</td>
+                                                        <td className="s4">Payload-Byte: A Tool for Extracting and
+                                                            Labeling Packet
+                                                            Capture Files of Modern Network
+                                                            Intrusion Detection Datasets
                                                         </td>
-                                                        <td className="s5" dir="ltr">Abdi Yamil Vicenciodelmoral, Md
-                                                            Mehedi Hasan Tanim, Feng Zhao and Xinghui Zhao
+                                                        <td className="s5">Yasir Ali Farrukh, Irfan Khan, Syed Wali,
+                                                            David
+                                                            Bierbrauer, John A. Pavlik and Nathaniel D.
+                                                            Bastian
                                                         </td>
 
 
                                                     </tr>
+
                                                     <tr style={{height: "20px"}}>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -828,7 +833,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big Data for Cybersecurity (chair Abdulkabir Abdulraheem)
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big Data for Cybersecurity  (Session Chair: Abdulkabir Abdulraheem)
                                                         </td>
 
                                                     </tr>
@@ -849,16 +854,13 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s3">8432</td>
-                                                        <td className="s4">Payload-Byte: A Tool for Extracting and
-                                                            Labeling Packet
-                                                            Capture Files of Modern Network
-                                                            Intrusion Detection Datasets
+                                                        <td className="s3" dir="ltr">5738-short</td>
+                                                        <td className="s4" dir="ltr">Supporting Green Neuromorphic
+                                                            Computing: Machine Learning Guided Microfabrication for
+                                                            Resistive Random Access Memory
                                                         </td>
-                                                        <td className="s5">Yasir Ali Farrukh, Irfan Khan, Syed Wali,
-                                                            David
-                                                            Bierbrauer, John A. Pavlik and Nathaniel D.
-                                                            Bastian
+                                                        <td className="s5" dir="ltr">Abdi Yamil Vicenciodelmoral, Md
+                                                            Mehedi Hasan Tanim, Feng Zhao and Xinghui Zhao
                                                         </td>
 
 
@@ -888,7 +890,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big Data for Earth (chair Shangping Ren)</td>
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Big Data for Earth (Session Chair: Shangping Ren)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -944,7 +946,7 @@ class Program extends React.Component {
                                                     <tr style={{height: "20px"}}>
 
                                                         <td className="s1 button-secondary" dir="ltr" colSpan="2">Big
-                                                            Data Applications
+                                                            Data Applications  (Session Chair: Sahara Ali)
                                                         </td>
 
                                                     </tr>
@@ -1011,7 +1013,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Security in Big Data
+                                                        <td className="s1 button-secondary" dir="ltr" colSpan="2">Security in Big Data (Session Chair: Ben McCamish)
                                                         </td>
 
                                                     </tr>
@@ -1077,7 +1079,7 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 1 - Tuesday, December 06 morning 09:00-10:20</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 1 - Tuesday, December 06 morning 09:00 - 10:20 (PST)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1137,7 +1139,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 2 - Tuesday, December 06 morning 10:30-11:50</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 2 - Tuesday, December 06 morning 10:30 - 11:50 (PST)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1185,7 +1187,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 3 - Tuesday, December 06 afternoon 13:00-14:20</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 3 - Tuesday, December 06 afternoon 13:00 - 14:20 (PST)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1239,7 +1241,7 @@ class Program extends React.Component {
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 4 - Tuesday, December 06 afternoon 14:30-15:30</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Session REU Symposium 4 - Tuesday, December 06 afternoon 14:30 - 15:30 (PST)</td>
 
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1293,7 +1295,7 @@ class Program extends React.Component {
                                                     <tbody>
                                                     <tr style={{height: "20px"}}>
 
-                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Joint Poster Session - Wednesday, December 07 afternoon 18:30 - 20:30 (During Reception)</td>
+                                                        <td className="s0  button-primary" dir="ltr" colSpan="2">Joint Poster Session - Wednesday, December 07 afternoon 18:30 - 20:30 (PST) (During Reception)</td>
 
                                                     </tr>
                                                     {/*<tr style={{height: "20px"}}>*/}
@@ -1336,9 +1338,9 @@ class Program extends React.Component {
                                                             for Neuromorphic Computing Application
                                                         </td>
                                                         <td className="s5 softmerge">Md Mehedi Hasan Tanim,
-                                                                Abdi Yamil
-                                                                Vicenciodelmoral, Zoe Templin, Xinghui Zhao and Feng
-                                                                Zhao
+                                                            Abdi Yamil
+                                                            Vicenciodelmoral, Zoe Templin, Xinghui Zhao and Feng
+                                                            Zhao
                                                         </td>
                                                     </tr>
                                                     <tr style={{height: "20px"}}>
@@ -1379,7 +1381,16 @@ class Program extends React.Component {
                                         </div>
                                     </TabPanel>
                                 </div>
-
+                                <p>* For other workshops, please visit their website to view the agenda. <Link to={"/workshops/"} target={"_blank"}>Please check the list here.</Link>
+                                    {/*<ul>*/}
+                                    {/*    <li><a href={'https://sites.google.com/view/blockcps2022' } target="_blank">BlockCPS</a></li>*/}
+                                    {/*    <li><a href={'http://cifs.servicelaboratory.ch/cifs2022/'} target="_blank">CIFS</a></li>*/}
+                                    {/*    <li><a href={'https://sites.google.com/unizar.es/cloudam2022' } target="_blank">CloudAM</a></li>*/}
+                                    {/*    <li><a href={'http://www.lrc.ic.unicamp.br/dml-icc/' } target="_blank">	DML-ICC</a></li>*/}
+                                    {/*    <li><a href={'https://www.intel4ec-workshop.nl/' } target="_blank">	Intel4EC</a></li>*/}
+                                    {/*    <li><a href={'https://sites.google.com/view/mlhi2022' } target="_blank">MLHI</a></li>*/}
+                                    {/*</ul>*/}
+                                </p>
                             </div>
                         </div>
                     </div>
